@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/countLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/advent_pro_medium"
+        android:text="#1"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/advent_pro_medium"
+        android:text="Question"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/answerBtn1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/baloo"
+        android:onClick="checkAnswer"
+        android:background="@drawable/custom_button"
+        android:text="answer1"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/baloo"
+        android:onClick="checkAnswer"
+        android:background="@drawable/custom_button"
+        android:text="answer2"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/answerBtn3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/baloo"
+        android:onClick="checkAnswer"
+        android:background="@drawable/custom_button"
+        android:text="answer3"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/answerBtn4"
+        android:layout_width="300dp"
+        android:layout_height= "50dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/baloo"
+        android:onClick="checkAnswer"
+        android:background="@drawable/custom_button"
+        android:text="answer4"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

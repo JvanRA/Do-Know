@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:text="About Us"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Made by: Guru Inference Company\n\n\nMembers:\t\t\t\t\t\t\tChester Alba\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tIvan Añora\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tKenneth Camacho\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tRafael Dionisio\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tAllen Ramos"
+        android:textSize="18sp"/>
+
+
+
+</LinearLayout>

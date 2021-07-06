@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LessonActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rules of Inference"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/m_ponens"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:text="Modus Ponens"
+            android:background="@drawable/custom_button"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/m_tollens"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Modus Tollens"
+            android:background="@drawable/custom_button"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/hypothetical_s"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Hypothetical Syllogism"
+            android:background="@drawable/custom_button"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/dysjunctive_s"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Disjunctive Syllogism"
+            android:background="@drawable/custom_button"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/addition"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Addition"
+            android:background="@drawable/custom_button"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/simplification"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Simplification"
+            android:background="@drawable/custom_button"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/resolution"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Resolution"
+            android:background="@drawable/custom_button"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</LinearLayout>

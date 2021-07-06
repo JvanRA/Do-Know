@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".StartActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/alegreya_sans_sc_medium"
+        android:shadowColor="#00FFFFFF"
+        android:text="Do Know"
+        android:textColor="#0F0F0F"
+        android:textColorHighlight="#32a852"
+        android:textSize="70sp" />
+
+    <Button
+        android:id="@+id/all"
+        android:layout_width="@dimen/startBtn_width"
+        android:layout_height="@dimen/startBtn_height"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/custom_button"
+        android:textSize="20sp"
+        android:fontFamily="@font/baloo"
+        android:onClick="startQuiz"
+        android:text="Exercise"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        android:textSize="20sp"
+        android:fontFamily="@font/baloo"
+        android:text="Lessons"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/abawt"
+        android:layout_width="180dp"
+        android:layout_height="@dimen/startBtn_height"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        android:textSize="20sp"
+        android:fontFamily="@font/baloo"
+        android:text="About us"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/guruinference"
+        android:layout_marginTop="40dp"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RuleActivity7"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:text="Resolution"
+        android:textSize="35sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/resolution"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:text="“If P or Q is true while P is false or R is true, then Q or R is true.”"
+        android:textAlignment="center"
+        android:textColor="#0b3173"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="An example of an argument that fits the form Resolution:"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="\t\t\t\t\tI will study  discrete math or I will study databases.\n\t\t\t\t\tI will not study discrete math or I will study English\n\t\t\t\t\tliterature.\n\t\t\t\t\tTherefore, I will study databases or I will English\n\t\t\t\t\tliterature.
+        \n\n\t\t\t\t\tP = today is tuesday\n\t\t\t\t\tQ = John will go to work"/>
+
+
+</LinearLayout>
